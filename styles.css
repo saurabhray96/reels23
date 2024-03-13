@@ -1,0 +1,119 @@
+#img1 {
+    transition: 2s;
+    background-image: url(img/orangebite-.png);
+    width: 50%;
+    background-position: left;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    transition: 2s;
+    background-image: url(img/oranger.png);
+    width: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+#textContent {
+    transition: 2s;
+    margin-bottom: 60px;
+    margin-top: -70px;
+}
+
+body {
+    transition: 2s;
+    background: linear-gradient(to right, red, orange);
+}
+
+* {
+    transition: 2s;
+    color: white;
+}
+
+#imgBox1 {
+    transition: 2s;
+}
+
+#imgCake {
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    background-image: url(img/orangeCake.png);
+    background-position: center;
+    transition: 2s;
+    margin-top: 50px;
+    border-radius: 50%;
+    padding: 0px 50px;
+    position: absolute;
+}
+
+span:first-child {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    transform: rotate(-75deg);
+    margin-top: 0px;
+    margin-left: -20px;
+}
+
+span:nth-child(2) {
+    font-weight: 700;
+    color: black;
+    transform: rotate(-50deg);
+    margin-left: 60px;
+    margin-top: -150px;
+
+}
+
+span:nth-child(3) {
+    font-weight: 700;
+    color: black;
+
+    margin-left: 125px;
+    margin-top: -230px;
+}
+
+span:nth-child(4) {
+    font-weight: 700;
+    color: black;
+    transform: rotate(50deg);
+    margin-left: 130px;
+    margin-top: -130px;
+}
+
+span:nth-child(5) {
+    font-weight: 700;
+    color: black;
+    transform: rotate(75deg);
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+#cursorBtn {
+    background-color: rgb(197, 6, 255);
+    box-shadow: 0px 1px 5px 1px black;
+    margin-top: -70px;
+    margin-left: -500px;
+}
+
+#botton:active,
+#imgCake {
+    transition: 2s;
+    transform: rotate(30deg);
+}
+
+#botton1 {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+#botton2 {
+    cursor: pointer;
+}
+
+#botton1:hover,
+#botton2:hover {
+    background-color: black;
+    border-radius: 50%;
+}

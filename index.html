@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>reels123</title>
+</head>
+
+<body id="body" class=" ">
+    <div class="h-60 flex">
+        <div class=" h-full" id="img1"></div>
+        <div class=" ml-4 h-full" id="img2"></div>
+    </div>
+    <div class="h-40 grid place-items-center">
+        <div class="w-1/2 h-full text-center" id="textContent">
+            <h1 id="flavorName" class="text-2xl text-white font-mono font-bold">Orange Cake</h1>
+            <p id="flvName">Indulge in the delightful zest of
+                fresh oranges with our scrumptious orange
+                cake. Moist, fluffy, and bursting with citrus
+                flavor, each bite is a heavenly sensation that will leave you craving more.
+                Perfect for any occasion.</p>
+        </div>
+    </div>
+    <div>
+        <button id="botton1" onclick="btn(0);" class="float-left ml-2"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg></button>
+        <button id="botton2" onclick="btn(1);" class="float-right mr-2"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg></button>
+    </div>
+    <br>
+    <div id="span" class="flex pl-72">
+        <span class="pt-20 ">Orange</span>
+        <span class="pt-20 ml-10 ">PineAppale</span>
+        <span class="pt-20 ml-6 ">Lemon</span>
+        <span class="pt-20 ml-6 ">Chocolate</span>
+        <span class="pt-20 ml-6 ">strawberry</span>
+    </div>
+    <div id="imgBox1" class="grid place-items-center ">
+        <div class=" bg-black w-4 h-4 rounded-full " style="position: absolute;" id="cursorBtn"></div>
+        <div id="imgCake">
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
